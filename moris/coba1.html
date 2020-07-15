@@ -1,0 +1,38 @@
+<html>
+<head>
+<title> Tutorial Morris Bag 1 </title>
+<link rel="stylesheet" href="morris.css">
+<script src="jquery.min.js"></script>
+<script src="raphael-min.js"></script>
+<script src="morris.min.js"></script>
+</head>
+<body>
+<div id="grafik"></div>
+<script>
+// Menggunakan Morris.Line
+Morris.Area({
+ 
+// ID Element dimana grafik ditempatkan
+element: 'grafik',
+ 
+// Data dari chart yang akan ditampilkan
+data: [
+{ tahun: '2010', value: 20 },
+{ tahun: '2011', value: 10 },
+{ tahun: '2012', value: 5},
+{ tahun: '2013', value: 5},
+{ tahun: '2014', value: 20}
+ 
+],
+// Sumbu X
+xkey: 'tahun',
+ 
+// Sumbu Y
+ykeys: ['value'],
+ 
+// Label
+labels: ['tahun']
+});
+</script>
+</body>
+</html>

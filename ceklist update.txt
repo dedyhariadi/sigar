@@ -1,0 +1,53 @@
+SOP:
+lakukan kondisi, cek awal , lihat laporan
+							NO Database
+1. Nomor SIP : $nosip, $nosipasli				OK
+	a. kondisi awal kosong, terus tetap kosong    	ok 	
+	b. kondisi awal kosong, terus diisi		ok
+	c. kondisi awal isi, terus dikosongi		ok
+	d. kondisi awal isi, terus diubah		ok
+
+2. Nama Penghuni, Nama Anggota					OK
+	a. kondisi awal kosong, terus tetap kosong	ok	
+	b. kondisi awal kosong, terus diisi		ok
+	c. kondisi awal isi, terus dikosongi		ok	
+	d. kondisi awal isi, terus diubah		ok
+
+3. Status (diubah status)==> cek				OK
+
+4. Pangkat							OK
+	a. kondisi awal kosong, terus tetap kosong	ok
+	b. kondisi awal kosong, terus diisi		ok
+	c. kondisi awal isi, terus dikosongi		ok
+	d. kondisi awal isi, terus diubah		ok
+
+5. Korps							OK
+	a. kondisi awal kosong, terus tetap kosong	ok
+	b. kondisi awal kosong, terus diisi		ok
+	c. kondisi awal isi, terus dikosongi		ok
+	d. kondisi awal isi, terus diubah		ok
+
+
+6. NRP /NIP							OK
+	a. kondisi awal kosong, terus tetap kosong	ok
+	b. kondisi awal kosong, terus diisi		ok 
+		tidak kembar				ok
+		kembar					ok
+	c. kondisi awal isi, terus dikosongi		ok
+	d. kondisi awal isi, terus diubah
+		tidak kembar				ok		
+		kembar					ok
+
+7. Satker
+	a. kondisi awal kosong, terus tetap kosong	ok
+	b. kondisi awal kosong, terus diisi		ok
+	c. kondisi awal isi, terus dikosongi		ok
+	d. kondisi awal isi, terus diubah		ok
+
+8. Tanggal Berlaku
+	a. kondisi awal kosong, terus tetap kosong	ok
+	b. kondisi awal kosong, terus diisi		ok
+	c. kondisi awal isi, terus dikosongi		ok
+	d. kondisi awal isi, terus diubah		ok
+
+9. Telepon						ok

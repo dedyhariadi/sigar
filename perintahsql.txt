@@ -1,0 +1,17 @@
+cari penghuni yang tidak punya rumah :
+
+mysql> select tbl_sip.id_rumah,tbl_penghuni.nrp,tbl_penghuni.nama_penghuni from
+tbl_sip right join tbl_penghuni using(nrp) where tbl_sip.nrp is null;
+
+
+cari rumah yang tidak berpenghuni:
+
+mysql> select tbl_sip.id_rumah,tbl_penghuni.nrp,tbl_penghuni.nama_penghuni from
+tbl_sip left join tbl_penghuni using(nrp) where tbl_penghuni.nrp is null;
+
+
+skrip list rumah per status:
+
+mysql > select a.id_rumah,c.nama_penghuni,b.nrp from tbl_rumah a,tbl_sip b,tbl_penghuni c where a.id_komplek=7 and a.id_rumah=b.id_rumah and b.nrp=c.nrp and c.kode_status=1;
+
+

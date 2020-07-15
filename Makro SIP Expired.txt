@@ -1,0 +1,73 @@
+Sub EXPIREDD()
+'
+' EXPIREDD Macro
+'
+
+'
+    ActiveSheet.Shapes("Control 4").Select
+    Selection.Delete
+    ActiveSheet.Shapes("Control 3").Select
+    Selection.Delete
+    ActiveSheet.Shapes("Control 5").Select
+    Selection.Delete
+    Selection.ClearContents
+    ActiveSheet.Shapes("Control 6").Select
+    Selection.Delete
+    Rows("1:10").Select
+    Selection.Delete Shift:=xlUp
+    Cells.Select
+    With Selection.Interior
+        .Pattern = xlNone
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    With Selection.Font
+        .ColorIndex = xlAutomatic
+        .TintAndShade = 0
+    End With
+    With Selection.Font
+        .Name = "Arial"
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .ColorIndex = xlAutomatic
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    With Selection.Font
+        .Name = "Arial"
+        .Size = 12
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .ColorIndex = xlAutomatic
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    Cells.EntireColumn.AutoFit
+    Range("A2:I2").Select
+    ActiveCell.FormulaR1C1 = _
+        "Jumlah Personel utk SIP EXPIRED untuk Komplek GEDANGAN"
+    With ActiveCell.Characters(Start:=1, Length:=54).Font
+        .Name = "Arial"
+        .FontStyle = "Regular"
+        .Size = 12
+        .Strikethrough = False
+        .Superscript = False
+        .Subscript = False
+        .OutlineFont = False
+        .Shadow = False
+        .Underline = xlUnderlineStyleNone
+        .ColorIndex = xlAutomatic
+        .TintAndShade = 0
+        .ThemeFont = xlThemeFontNone
+    End With
+    Range("A3:I3").Select
+    ActiveWindow.SmallScroll Down:=9
+End Sub

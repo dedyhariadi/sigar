@@ -1,0 +1,64 @@
+﻿a:link {
+	text-decoration	: none;
+	font-family		: "Cambria";
+	text-align: center;
+    color	:#000000;
+    border-color:white;
+}
+	
+a:visited {
+	text-decoration	:none;
+	color	:#000000;
+	font-family		: "Cambria";
+	}
+			
+a:hover {
+
+	color:blue;
+	text-decoration	:none;
+	font-family		: "Cambria";
+			}
+
+a:active {
+	text-decoration: none;
+	font-family		: "Cambria";
+    color	:#000000;
+}
+		
+.standardteks {
+	font-family: "Cambria";
+	font-size:16px;
+}
+
+.standardteksd {
+	font-family: "Cambria";
+	font-size:23px;
+}
+
+
+.judulmenu{
+	font-family: "Cambria";
+	font-size:medium;
+	color:navy;
+}
+
+.tulisantabel{
+	border: none;
+	font-family: "Tahoma";
+	font-size: 14px;
+}
+
+.judultabel{
+	border: none;
+	font-family: "Tahoma";
+	font-size: 16px;
+	text-align:center;
+}
+
+.judul {
+	font-family: "Cambria";
+	color: green;
+	font-size: x-large;
+	text-align: center;
+	margin-bottom: 0px;
+}

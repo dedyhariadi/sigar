@@ -1,0 +1,51 @@
+﻿a:link {
+	text-decoration	: none;
+	font-family		: "Berlin Sans FB";
+	text-align: center;
+   color:black;
+}
+	
+a:visited {
+	text-decoration	:none;
+	font-family		: "Berlin Sans FB";
+   color:black;
+	}
+			
+a:hover {
+    
+	color:white;
+	text-decoration	:none;
+	font-family		: "Berlin Sans FB";
+			}
+
+a:active {
+	text-decoration: none;
+    font-family		: "Berlin Sans FB";
+   color:black;
+}
+
+.style1 {
+	font-family		: "Gisha";
+	font-size		: 10pt;
+	letter-spacing	: 0.3pt;			
+	color			: gray;
+	}
+		
+.standardteks {
+	font-family: "Berlin Sans FB";
+	font-size:15px;
+}
+
+.tulisantabel{
+	border: none;
+	font-family: "Tahoma";
+	font-size: 14px;
+}
+
+.judul {
+	font-family: "Berlin Sans FB";
+	color: blue;
+	font-size: x-large;
+	text-align: center;
+	margin-bottom: 0px;
+}
